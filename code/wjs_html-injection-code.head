@@ -1,0 +1,21 @@
+<script>
+
+    var collapsibleMenu        = false;     // Enable or disable collapsible menu
+    var slidingMenu            = false;     // Enable or disable sliding menu
+    var hideDivider            = false;     // Enable or disable 'Divider' element in navigation
+    var addSiteTitleNavigation = false;     // Add link to Site Title next to Site Logo
+    var removeBreadcrumbs      = false;     // Enable or disable Breadcrumbs
+    var removeTocCard          = false;     // Enable or disable 'Table of Contents' Card
+    var removeTagCard          = false;     // Enable or disable 'Tags' Card
+    var removeHistoryCard      = false;     // Enable or disable 'Last Edited By' Card
+    var customizeVideoPlayer   = false;     // Enable or disable video player customization
+    var removeBookmarkCard     = false;     // Enable or disable Bookmark/Share/Print Card
+    var sideColumnPosition     = 'left';    // Side column position. Options: 'left'|'right'|false
+
+    var mouseLeftEdgeOpensMenu = false;     // When mouse close to the left edge, reveals menu if unpinned
+    const leftEdge = 1;                     // Distance from the left edge in pixels to trigger menu reveal
+
+    const COOKIE_NAME = "mad-nav-pinned";   // Name of the cookie (used for menu pin status)
+    const COOKIE_DAYS = 365;                // Cookie validity in days
+
+</script>
