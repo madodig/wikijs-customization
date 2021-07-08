@@ -512,7 +512,7 @@ function getMenuItemInfo(menuItem, filter) {
     if ( icon ) {
         menuItem = menuItem.replace(icon[0], "");
         icon = icon[0].split("#")[1];
-		if ( icon.toLowerCase().indexOf("mdi-") == 0 ) { icon = "mdi " + icon; }
+        if ( icon.toLowerCase().indexOf("mdi-") == 0 ) { icon = "mdi " + icon; }
     }
 
     var parts = menuItem.split("#");
