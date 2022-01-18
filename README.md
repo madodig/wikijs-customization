@@ -107,7 +107,7 @@ In addition to previous step, you just have to add the configuration, so wrap th
     </script>
 
 NOTE:<br>
-Better option is, of course, the first option, since the code is hosted locally and you don't rely on 3rd party services.
+The first option is better, since the code is hosted locally and you don't rely on 3rd party services.
 
 ### Advanced installation
 
@@ -260,6 +260,8 @@ For section headers you can use navigation elements of types Header and Link. If
 
 When a page that is a subitem of a menu section is loaded, injected code will automatically expand the corresponding section.
 
+If you want to use Font Awesome icon set, prefix the icon value with fas for Font Awesome 5, or fa for Font Awesome 4. Example: `#00#Demo Section 2#fas fa-home#`.
+
 While configuring the navigation, final result is not visible since injection code is not loaded in the Administration area.
 
 An example of the Navigation as set up in Administration area (left image) and the final result (right image):
@@ -300,7 +302,7 @@ To use it, wrap your items list with `div` element (`id="faccordion"`). Items sh
 
 Example:
 
-    <div id="faccordion">
+    <div class="faccordion">
 
     - ### Item 1
       Text
