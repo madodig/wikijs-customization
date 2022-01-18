@@ -260,9 +260,9 @@ For section headers you can use navigation elements of types Header and Link. If
 
 When a page that is a subitem of a menu section is loaded, injected code will automatically expand the corresponding section.
 
-If you want to use Font Awesome icon set, prefix the icon value with fas for Font Awesome 5, or fa for Font Awesome 4. Example: `#00#Demo Section 2#fas fa-home#`.
+If you want to use Font Awesome icon set, prefix the icon value with `fas` for Font Awesome 5 (note that some icons use different prefixes, e.g. `fab`, `fad`, `fal`, `far`), or `fa` for Font Awesome 4. Example: `#00#Demo Section 2#fas fa-home#`. For this to work, choose Font Awesome icon under Administration / Theme / Icon Set. When Font Awesome Icon Set is active, Material Design Icons should also work, but not vice-versa.
 
-While configuring the navigation, final result is not visible since injection code is not loaded in the Administration area.
+When configuring the navigation, final result is not visible since injection code is not loaded in the Administration area.
 
 An example of the Navigation as set up in Administration area (left image) and the final result (right image):
 
